@@ -6,6 +6,7 @@ namespace SqlFramework
     public class AppDbContext : DbContext
     {
         public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<Invoice> Invoice { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsbuilder)
         {

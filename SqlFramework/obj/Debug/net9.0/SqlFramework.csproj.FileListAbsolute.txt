@@ -30,6 +30,7 @@ C:\Users\yaako\source\repos\SqlFramework\SqlFramework\obj\Debug\net9.0\SqlFramew
 C:\Users\yaako\source\repos\SqlFramework\SqlFramework\obj\Debug\net9.0\SqlFramework.AssemblyInfoInputs.cache
 C:\Users\yaako\source\repos\SqlFramework\SqlFramework\obj\Debug\net9.0\SqlFramework.AssemblyInfo.cs
 C:\Users\yaako\source\repos\SqlFramework\SqlFramework\obj\Debug\net9.0\SqlFramework.csproj.CoreCompileInputs.cache
+C:\Users\yaako\source\repos\SqlFramework\SqlFramework\obj\Debug\net9.0\SqlFramework.sourcelink.json
 C:\Users\yaako\source\repos\SqlFramework\SqlFramework\obj\Debug\net9.0\SqlFramework.dll
 C:\Users\yaako\source\repos\SqlFramework\SqlFramework\obj\Debug\net9.0\refint\SqlFramework.dll
 C:\Users\yaako\source\repos\SqlFramework\SqlFramework\obj\Debug\net9.0\SqlFramework.pdb

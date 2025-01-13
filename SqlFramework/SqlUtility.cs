@@ -49,7 +49,11 @@ namespace SqlFramework
                     foreach (PropertyInfo p in props)
                     {
                         if (p.CanWrite)
-                            p.SetValue(item, dr.GetValue(dr.GetOrdinal(p.Name)));
+                        {
+                            var dbval = dr.GetValue(dr.GetOrdinal(p.Name));
+                            var setval = (dbval != DBNull.Value ? dbval : null);
+                            p.SetValue(item, setval);
+                        }
                     }
                     lst.Add(item);
                 }
