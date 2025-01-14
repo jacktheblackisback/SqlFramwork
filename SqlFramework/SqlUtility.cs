@@ -21,6 +21,21 @@ namespace SqlFramework
             return cmd;
         }
 
+        private static void ExecuteSqlCRUD(SqlCommand cmd)
+        {
+            try
+            {
+                SqlConnection conn = new(ConnectionString);
+                cmd.Connection = conn;
+                conn.Open();
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
         private static SqlDataReader ExecuteSql(SqlCommand cmd)
         {
             try
