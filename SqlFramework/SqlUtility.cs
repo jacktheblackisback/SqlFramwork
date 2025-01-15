@@ -80,7 +80,10 @@ namespace SqlFramework
             }
         }
 
-
+        public static void SaveObjectToDatabase(object obj)
+        {
+            
+        }
 
     }
 }
