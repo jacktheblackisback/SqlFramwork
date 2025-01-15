@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SqlFramework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29d5f15cfe3056c47c791b4604efde6ec9728b5e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+142c075f517ebd1b138629767327fadbb56700a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("SqlFramework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SqlFramework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

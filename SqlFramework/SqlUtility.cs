@@ -51,6 +51,10 @@ namespace SqlFramework
             }
         }
 
+        public static void ExecuteCRUDWrapper(SqlCommand cmd)
+        {
+            ExecuteSqlCRUD(cmd);
+        }
         public static List<T> GetGenericObjectListFromDB<T>(SqlCommand cmd) where T : new()
         {
             List<T> lst = new();
