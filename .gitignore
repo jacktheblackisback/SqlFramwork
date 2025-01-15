@@ -1,0 +1,54 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.dll
+*.exe
+*.app
+*.log
+*.cache
+*.pdb
+
+# Visual Studio specific
+.vscode/
+.vs/
+*.csproj.user
+
+# Rider IDE specific
+.idea/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.log
+
+# Output of dotnet publish
+publish/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Secret files
+*.key
+*.pfx
+*.snk
+
+# MAUI-specific additions
+*.ipa
+*.apk
+*.aab
+*.xcarchive
